@@ -1,3 +1,6 @@
+body {
+  font-family: "poppins";
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -35,9 +38,6 @@ li {
 }
 a {
   text-decoration: none;
-}
-body {
-  font-family: "poppins";
 }
 img[src$=".jpg"] {
   border-radius: 4px;

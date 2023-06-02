@@ -44,9 +44,13 @@
   justify-items: end;
 }
 @media (max-width: 800px) {
+  .seguro-bg{
+     padding-bottom:30px ;
+  }
   .seguro-conteudo {
     grid-template-columns: 1fr;
   }
+  
 }
 @media (max-width: 600px) {
   .seguro-conteudo {
