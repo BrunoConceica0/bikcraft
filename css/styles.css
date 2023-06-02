@@ -7,10 +7,10 @@
 
 /* utilidades */
 @import url("./utilidades/utilidades.css");
-/* global */
 
+/* global */
 @import url("./globla/global.css");
-@import url("/css/globla/rodape.css");
+@import url("./globla/rodape.css");
 
 /* bicicletas */
 @import url("./bicicleta/bicicleta.css");
