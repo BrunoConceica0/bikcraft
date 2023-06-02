@@ -1,0 +1,19 @@
+/* home */
+
+@import url("./home/header.css");
+@import url("./home/tecnologia.css");
+@import url("./home/parceiros.css");
+@import url("./home/depoimento.css");
+
+/* utilidades */
+@import url("./utilidades/utilidades.css");
+/* global */
+
+@import url("./globla/global.css");
+@import url("/css/globla/rodape.css");
+
+/* bicicletas */
+@import url("./bicicleta/bicicleta.css");
+
+/* Seguros */
+@import url("./seguro/seguro.css");

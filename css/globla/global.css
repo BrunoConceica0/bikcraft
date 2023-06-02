@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --cor-detalhe: #e7ae22;
+  --cor-bg: #000000;
+  --cor-container: #111111;
+  --cor-texto: #b2b2b2;
+  --cor-texto-2: #595959;
+  /* cores */
+  --cp1: #000000;
+  --cp2: #111111;
+  --cp3: #2e2e2e;
+  --cp4: #404040;
+  --cp5: #595959;
+  --cp6: #717171;
+
+  --cb1: #ffffff;
+  --cb2: #f7f7f7;
+  --cb3: #ededed;
+  --cb4: #dedede;
+  --cb5: #cccccc;
+  --cb6: #b2b2b2;
+  --cb7: #9c9c9c;
+
+  --cor-p1: #ffbb00;
+  --cor-p2: #e4a30b;
+  --cor-p3: #a66f00;
+  --cor-p4: #664400;
+  --cor-p5: #332200;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "poppins";
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
+  height: 100%;
+  max-width: 100%;
+}
