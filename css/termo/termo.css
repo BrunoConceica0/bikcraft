@@ -1,0 +1,24 @@
+.titulo-conteudo {
+  padding: 60px 20px;
+  position: relative;
+}
+.titulo-conteudo span {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+/* .termo-conteudo::before {
+  content: "";
+  display: block;
+  max-width: 52px;
+  height: 52px;
+  background-image: url("/img/dec/top-right.svg");
+  position: absolute;
+  right: 20px;
+} */
+
+@media (max-width: 600px) {
+  .titulo-conteudo {
+    padding: 40px 20px;
+  }
+}

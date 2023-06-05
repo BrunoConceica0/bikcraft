@@ -4,9 +4,11 @@
 @import url("./home/tecnologia.css");
 @import url("./home/parceiros.css");
 @import url("./home/depoimento.css");
+@import url("./home/introducao.css");
 
 /* utilidades */
 @import url("./utilidades/utilidades.css");
+@import url("./utilidades/cores.css");
 
 /* global */
 @import url("./globla/global.css");
@@ -14,6 +16,11 @@
 
 /* bicicletas */
 @import url("./bicicleta/bicicleta.css");
+@import url("./bicicleta/bicicletas-lista.css");
 
 /* Seguros */
 @import url("./seguro/seguro.css");
+
+/* Termos */
+@import url("./termo/termo.css");
+@import url("termo/politica.css");

@@ -1,0 +1,34 @@
+/* cores */
+.cp1 {
+  background-color: #000000;
+}
+.cp2-bg {
+  background-color: #111111;
+}
+.cp2 {
+  color: #111111;
+}
+.cp4{
+  color: var(--cp4);
+}
+.cp5{
+  color: var(--cp5);
+}
+.cb5 {
+  color: #cccccc;
+}
+.cb4 {
+  color: #dedede;
+}
+.cb6 {
+  color: #717171;
+}
+.cb1 {
+  color: #ffffff;
+}
+.cb3 {
+  color: #ededed;
+}
+.cor-p1 {
+  color: #e7ae22;
+}

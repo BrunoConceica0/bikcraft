@@ -1,0 +1,14 @@
+/* .bicicletas-conteudo{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+.bicicletas-itens{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.bicicletas-itens img{
+  object-fit: cover;
+  object-position: right center;
+}
+.bicicletas-itens li p{
+font-family: "poppins";}
