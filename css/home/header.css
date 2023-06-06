@@ -1,70 +1,74 @@
-.header-intro {
+.header-bg {
+  background: var(--cp1);
+  padding: 40px;
+  box-sizing: border-box;
+}
+.header {
   display: flex;
-  justify-content: space-around;
-  align-content: center;
-  padding-top: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-menu ul {
   display: flex;
-  gap: 20px;
+}
+.header-bg li {
+  display: inline-block;
+  margin: 15px 20px;
 }
 .header-menu a {
-  display: inline-block;
-  color: #fff;
-  font-size: 1.142rem;
+  color: var(--cb1);
+  font-size: 1.125rem;
+  line-height: 1.3;
   text-transform: capitalize;
-  line-height: 1.2;
-  position: relative;
 }
-.header-menu a::after {
+.header-menu li::after {
   content: "";
-  display: inline-block;
+  display: block;
+  max-width: 0%;
   height: 2px;
-  width: 0px;
-  background-color: #fff;
-}
-.header-menu a:hover::after {
-  width: 100%;
+  background: var(--cb1);
+  margin-top: 5px;
   transition: 0.3s;
-  left: 0px;
-  bottom: -10px;
-  position: absolute;
 }
-.header-intro {
-  padding-bottom: 40px;
+.header-menu li:hover::after {
+  max-width: 100%;
+}
+@media (max-width: 1000px) {
+  .header-bg li::after {
+    display: none;
+  }
+  .header-bg li {
+    background-color: var(--cp2);
+    padding: 9px 15px;
+    margin: 10px;
+    border-radius: 4px;
+  }
+  .header-bg a {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 800px) {
-  .header-menu a {
-    background-color: #111111;
-    padding: 10px 16px;
-    border-radius: 4px;
-    font-size: 1.02rem;
+  .header-bg a {
+    font-size: 0.852rem;
   }
-  .header-menu a:hover {
-    background-color: #2e2e2e;
-  }
-  .header-menu a::after {
-    display: none;
+  .header-bg li {
+    padding: 7px 12px;
   }
 }
 @media (max-width: 600px) {
-  .header-intro {
+  .header {
     display: initial;
-  }
-  .header img {
-    padding: 20px;
-  }
-  .header-menu {
-    margin-left: 10px;
-    margin-top: -17px;
   }
   .header-menu ul {
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 13px;
+    padding-top: 10px;
   }
-  .header-menu a {
-    font-size: 0.825rem;
-    padding: 8px 14px;
+  .header-bg {
+    padding: 10px;
+  }
+  .header-menu li {
+    justify-self: center;
+    justify-content: start;
   }
 }
