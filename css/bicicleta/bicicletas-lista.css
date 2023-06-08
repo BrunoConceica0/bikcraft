@@ -1,3 +1,6 @@
+.bicicletas-bg:nth-child(2n) {
+  background: linear-gradient(to right, var(--cb1) 30%, var(--cp2) 0%);
+}
 .bicicletas-intro {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -5,6 +8,8 @@
   padding: 60px 20px;
   margin: 60px 0;
   box-shadow: inset 120px 0 white;
+  position: relative;
+  margin: 0 auto;
 }
 .bicicletas-img {
   display: grid;
@@ -21,11 +26,13 @@
   place-self: start end;
   border-radius: 8px 0px 0 8px;
   margin-top: 20px;
+  margin-right: 1px;
 }
 .bicicletas-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   margin: 0 40px;
+  align-content: start;
 }
 .bicicletas-conteudo h2,
 .bicicletas-conteudo p {
@@ -61,7 +68,14 @@
   object-fit: cover;
   object-position: right;
 }
+
 @media (max-width: 600px) {
+  .bicicletas-bg:nth-child(2n) {
+    background: var(--cp2);
+  }
+  .bicicletas-conteudo {
+    margin: 0px;
+  }
   .bicicletas-intro {
     grid-template-columns: 1fr;
     box-shadow: none;
@@ -78,6 +92,7 @@
   }
   .bicicletas-conteudo h2 {
     margin: 20px 0;
+    text-align: center;
   }
   .bicicletas-intro {
     margin: 0px 15px;

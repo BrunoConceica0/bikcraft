@@ -8,26 +8,29 @@
 .cp2 {
   color: #111111;
 }
-.cp4{
+.cp4 {
   color: var(--cp4);
 }
-.cp5{
+.cp5 {
   color: var(--cp5);
 }
-.cb5 {
-  color: #cccccc;
-}
-.cb4 {
-  color: #dedede;
+.cb5{
+  color: var(--cb5);
 }
 .cb6 {
   color: #717171;
+}
+.cb4 {
+  color: #dedede;
 }
 .cb1 {
   color: #ffffff;
 }
 .cb3 {
   color: #ededed;
+}
+.cb2{
+  color: var(--cb2);
 }
 .cor-p1 {
   color: #e7ae22;
