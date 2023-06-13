@@ -1,0 +1,134 @@
+.nimbus-container {
+  padding-top: 60px;
+}
+.nimbus-container > span {
+  font-weight: normal;
+}
+.nimbus-conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  gap: 40px;
+  padding: 60px 0px;
+}
+.nimbus-bik img {
+  width: 24px;
+  height: 24px;
+}
+.nimbus-img {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.nimbus-img img {
+  flex: 1;
+  min-width: 200px;
+  height: initial;
+}
+.nimbus-img img:first-child {
+  min-width: 100%;
+}
+.nimbus-bik p {
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+.compra {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+.compra a {
+  margin-right: 10px;
+  grid-row: span 2;
+}
+.compra span {
+  display: flex;
+  gap: 20px;
+  background: var(--cp1);
+  align-items: center;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.nimbus-informacao,
+.nimbus-ficha {
+  background: var(--cp1);
+  padding: 32px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+.nimbus-conteudo h2 {
+  margin-bottom: 10px;
+}
+.nimbus-bik h2 {
+  margin-top: 10px;
+}
+.nimbus-informacao {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.nimbus-ficha li {
+  border-bottom: 2px solid var(--cp2);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.nimbus-ficha li:last-child {
+  border: none;
+  margin: 0px;
+}
+@media (max-width: 800px) {
+  .nimbus-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .nimbus-img {
+    grid-row: 2;
+  }
+  .subtitulo-g {
+    font-size: 1.252rem;
+  }
+}
+@media (max-width: 600px) {
+  .nimbus-informacao,
+  .nimbus-ficha {
+    padding: 22px;
+  }
+  .nimbus-informacao li p {
+    margin-bottom: 20px;
+  }
+  .subtitulo-g {
+    font-size: 1rem;
+  }
+  .nimbus-container {
+    padding-top: 40px;
+  }
+  .nimbus-conteudo {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .nimbus-informacao {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .compra a {
+margin: 0px;
+    grid-row: 1;
+    grid-column: 1/2;
+    justify-content: end;
+  }
+  .compra span {
+    margin-top: 16px;
+    grid-row: 2; 
+    margin: 0px;
+  }
+  .compra{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: start;
+  }
+}

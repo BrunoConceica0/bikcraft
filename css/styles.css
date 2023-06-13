@@ -14,15 +14,25 @@
 @import url("./globla/global.css");
 @import url("./globla/rodape.css");
 
-/* bicicletas */
+/* bicicleta */
 @import url("./bicicleta/bicicleta.css");
 @import url("./bicicleta/bicicletas-lista.css");
+@import url("./bicicleta/seguro-bik.css");
+
+/* bicicletas */
+/* Nimbus */
+@import url("./bicicletas/nimbus.css");
+@import url("./bicicletas/outras.css");
 
 /* Seguros */
 @import url("./seguro/seguro.css");
 @import url("./seguro/seguros.css");
 @import url("./seguro/vantagens.css");
+@import url("./seguro/perguntas.css");
 
 /* Termos */
 @import url("./termo/termo.css");
 @import url("termo/politica.css");
+
+/* contatos */
+@import url("./contatos/contatos.css")

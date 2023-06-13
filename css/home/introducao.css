@@ -6,6 +6,9 @@
   background-color: var(--cp1);
   box-shadow: inset 0 -120px white;
 }
+.introducao a{
+  margin-bottom: 200px;
+}
 .introducao-img {
   grid-row: 1/-4;
   grid-column: 2;

@@ -1,7 +1,6 @@
 .seguros-bg {
   padding: 0px 20px;
-  background: var(--cp2) url("../../img/dec/bottom-left.svg") no-repeat bottom
-    left;
+  background: var(--cp2) url("../../img/dec/bottom-left.svg") no-repeat bottom left;
 }
 .seguros-conteudo {
   background: url("../../img/dec/top-right.svg") no-repeat right;

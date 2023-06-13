@@ -1,7 +1,10 @@
 .vantagens-bg {
-  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 60px 20px;
+  background: url("../../img/dec/bottom-left.svg") no-repeat left bottom;
 }
 .vantagens-lista {
+  background: url("../../img/dec/top-right.svg") no-repeat top right;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
@@ -11,24 +14,29 @@
   margin: 0px;
   background: black;
 }
-.vantagens-lista p{
-  margin-top:15px ;
-} 
-@media(max-width:800px){
-  .vantagens-lista{
-    grid-template-columns: repeat(2,1fr);
+.vantagens-lista p {
+  margin-top: 15px;
+}
+@media (max-width: 800px) {
+  .vantagens-lista {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .vantagens-bg,
+  .vantagens-lista {
+    background: none;
   }
 }
-@media(max-width:600px){
-  .vantagens-conteudo h1{
+@media (max-width: 600px) {
+  .vantagens-conteudo h1 {
     padding: 20px 0;
+    text-align: center;
   }
-  .vantagens-lista{
+  .vantagens-lista {
     grid-template-columns: 1fr;
     padding: 40px 0;
   }
-  .vantagens-lista img{
-    width: 24px ;
+  .vantagens-lista img {
+    width: 24px;
     height: 24px;
   }
 }

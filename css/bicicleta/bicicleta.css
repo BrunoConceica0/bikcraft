@@ -43,7 +43,7 @@
   margin: 8px;
   transition: width 0.3s;
 }
-.bicicletas-lista h3:hover::before {
+.bicicletas-lista a:hover h3::before {
   width: 20px;
 }
 @media (max-width: 1000px) {

@@ -1,0 +1,29 @@
+.seguro-bik-bg {
+  box-shadow: inset 0 120px white, inset 0 -120px black;
+}
+.seguro-bik-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.seguro-bik-container img {
+  object-fit: cover;
+}
+.seguro-bik-conteudo {
+  margin: 200px 0;
+  display: grid;
+  gap: 20px;
+}
+@media (max-width: 800px) {
+  .seguro-bik-container {
+    grid-template-columns: 1fr;
+  }
+  .seguro-bik-conteudo {
+    grid-row: 1;
+    margin: 0px;
+  }
+  .seguro-bik-bg {
+    box-shadow: inset 0 -80px black;
+    padding-top:60px ;
+  }
+}

@@ -2,8 +2,14 @@
 .cp1 {
   background-color: #000000;
 }
+.cp0{
+  color: var(--cp1);
+}
 .cp2-bg {
   background-color: #111111;
+}
+.cb1-bg{
+background: var(--cb1);
 }
 .cp2 {
   color: #111111;
