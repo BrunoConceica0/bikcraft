@@ -1,3 +1,74 @@
 .contatos-bg {
-  background: var(--cp2);
+  background: linear-gradient(var(--cp2) 65%, var(--cb2) 35%);
+}
+.contatos-conteudo {
+  padding: 60px 0;
+}
+#contatos .contatos-conteudo p {
+  font-size: 1.452rem;
+  font-family: "roboto";
+  padding-bottom: 20px;
+}
+.contatos-loja {
+  background: url("../../img/dec/bottom-left.svg") no-repeat var(--cp1) left
+    20px bottom 20px;
+}
+.contato-usuario {
+  background: url("../../img/dec/bottom-right.svg") no-repeat var(--cb1) right
+    20px bottom 20px;
+}
+.contatos-endereco {
+  padding: 53px 0 20px 0;
+}
+.contatos-endereco p {
+  padding: 7px 0;
+  padding-left: 28px;
+  text-transform: capitalize;
+}
+.contatos-endereco p:first-child {
+  background: url("../../img/icones/local.svg") no-repeat left;
+}
+.contatos-email a {
+  display: block;
+  font-family: "poppins", sans-serif;
+  color: var(--cb4);
+  margin: 10px 0;
+  padding-left: 28px;
+  max-width: max-content;
+}
+.contatos-email a:first-child {
+  background: url("../../img/icones/email.svg") no-repeat left;
+}
+.contatos-email a:last-child {
+  background: url("../../img/icones/telefone.svg") no-repeat left;
+  margin-top: 40px;
+}
+.contatos-redes {
+  display: flex;
+  gap: 32px;
+  margin: 60px 0px;
+}
+.contatos-redes a {
+  margin-left: 30px;
+}
+@media (max-width: 800px) {
+  .contatos-loja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contatos-loja {
+    background: var(--cp1);
+  }
+  .contatos-loja {
+    margin: 20px;
+    border-radius: 4px;
+  }
+  .contatos-bg {
+    background: linear-gradient(var(--cp2) 70%, var(--cb2) 35%);
+  }
+  .contatos-redes {
+    gap: 15px;
+    margin: 20px 0px;
+  }
 }

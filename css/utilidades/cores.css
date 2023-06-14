@@ -32,6 +32,9 @@ background: var(--cb1);
 .cb1 {
   color: #ffffff;
 }
+.cb1-bg{
+  background: var(--cb1);
+}
 .cb3 {
   color: #ededed;
 }

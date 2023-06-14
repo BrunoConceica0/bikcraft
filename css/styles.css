@@ -35,4 +35,5 @@
 @import url("termo/politica.css");
 
 /* contatos */
-@import url("./contatos/contatos.css")
+@import url("./contatos/contatos.css");
+@import url("./contatos/formulario.css");
